@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/chartjs-react-app/static/css/main.ea18a262.chunk.css",
-    "main.js": "/chartjs-react-app/static/js/main.0802e21d.chunk.js",
-    "main.js.map": "/chartjs-react-app/static/js/main.0802e21d.chunk.js.map",
+    "main.js": "/chartjs-react-app/static/js/main.5a259a77.chunk.js",
+    "main.js.map": "/chartjs-react-app/static/js/main.5a259a77.chunk.js.map",
     "runtime-main.js": "/chartjs-react-app/static/js/runtime-main.6c378efd.js",
     "runtime-main.js.map": "/chartjs-react-app/static/js/runtime-main.6c378efd.js.map",
-    "static/js/2.30647269.chunk.js": "/chartjs-react-app/static/js/2.30647269.chunk.js",
-    "static/js/2.30647269.chunk.js.map": "/chartjs-react-app/static/js/2.30647269.chunk.js.map",
+    "static/js/2.03db10d3.chunk.js": "/chartjs-react-app/static/js/2.03db10d3.chunk.js",
+    "static/js/2.03db10d3.chunk.js.map": "/chartjs-react-app/static/js/2.03db10d3.chunk.js.map",
     "index.html": "/chartjs-react-app/index.html",
-    "precache-manifest.58cacc259aad15aa679e0d6176f778a2.js": "/chartjs-react-app/precache-manifest.58cacc259aad15aa679e0d6176f778a2.js",
+    "precache-manifest.28ea5c028bc485b8157b687e3713a842.js": "/chartjs-react-app/precache-manifest.28ea5c028bc485b8157b687e3713a842.js",
     "service-worker.js": "/chartjs-react-app/service-worker.js",
     "static/css/main.ea18a262.chunk.css.map": "/chartjs-react-app/static/css/main.ea18a262.chunk.css.map",
-    "static/js/2.30647269.chunk.js.LICENSE": "/chartjs-react-app/static/js/2.30647269.chunk.js.LICENSE",
+    "static/js/2.03db10d3.chunk.js.LICENSE": "/chartjs-react-app/static/js/2.03db10d3.chunk.js.LICENSE",
     "static/media/logo.svg": "/chartjs-react-app/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6c378efd.js",
-    "static/js/2.30647269.chunk.js",
+    "static/js/2.03db10d3.chunk.js",
     "static/css/main.ea18a262.chunk.css",
-    "static/js/main.0802e21d.chunk.js"
+    "static/js/main.5a259a77.chunk.js"
   ]
 }

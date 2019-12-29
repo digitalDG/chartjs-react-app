@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9cfcf6fcf9a2041cc99ae85247190ba",
+    "revision": "97f288953f354527e4ef1331d4f8a27d",
     "url": "/chartjs-react-app/index.html"
   },
   {
-    "revision": "c950e6f4f04d11638f7c",
+    "revision": "7ad4ee263f5eae03596b",
     "url": "/chartjs-react-app/static/css/main.ea18a262.chunk.css"
   },
   {
-    "revision": "cbf7310e478e0b979e19",
-    "url": "/chartjs-react-app/static/js/2.30647269.chunk.js"
+    "revision": "425877e12d04af699c82",
+    "url": "/chartjs-react-app/static/js/2.03db10d3.chunk.js"
   },
   {
     "revision": "f09321e517ab4567bb350ec8faae3b4d",
-    "url": "/chartjs-react-app/static/js/2.30647269.chunk.js.LICENSE"
+    "url": "/chartjs-react-app/static/js/2.03db10d3.chunk.js.LICENSE"
   },
   {
-    "revision": "c950e6f4f04d11638f7c",
-    "url": "/chartjs-react-app/static/js/main.0802e21d.chunk.js"
+    "revision": "7ad4ee263f5eae03596b",
+    "url": "/chartjs-react-app/static/js/main.5a259a77.chunk.js"
   },
   {
     "revision": "ed55c67acbacccc598ba",
