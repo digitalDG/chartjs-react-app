@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Line} from 'react-chartjs-2';
 
 const data = {
-    labels: ['Manchester', 'Nashua', 'Concord', 'Derry', 'Dover', 'New Rochester', 'Salem', 'Londonderry', 'Merrimack', 'Hudson'],
+    labels: ['Manchester', 'Nashua', 'Concord', 'Derry', 'Dover', 'Rochester', 'Salem', 'Londonderry', 'Merrimack', 'Hudson'],
     datasets: [
         {
             label: 'Population',
