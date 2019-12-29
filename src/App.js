@@ -1,26 +1,43 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import BarChart from './components/BarChart';
+import PieChart from './components/PieChart';
+import LineChart from './components/LineChart';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+  
+  state = {
+    title: "Largest Cities In New Hampshire by Population"
+  }
+  
+  
+  render() {
+
+    const { title } = this.state;
+
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1>Sample Chart.js React App</h1>
+        </header>
+
+        <div className="chart-wrapper">
+          <BarChart title={title} />
+        </div>
+
+        <div className="chart-wrapper">
+          <PieChart title={title} />
+        </div>
+
+        <div className="chart-wrapper">
+          <LineChart title={title} />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
