@@ -24,15 +24,15 @@ class App extends Component {
           <h1>Sample Chart.js React App</h1>
         </header>
 
-        <div className="chart-wrapper">
+        <div className="sub chart-wrapper">
           <BarChart title={title} />
         </div>
 
-        <div className="chart-wrapper">
+        <div className="sub chart-wrapper">
           <PieChart title={title} />
         </div>
 
-        <div className="chart-wrapper">
+        <div className="sub chart-wrapper">
           <LineChart title={title} />
         </div>
       </div>
