@@ -9,13 +9,46 @@ class App extends Component {
 
   
   state = {
+    chartData: {
+      labels: ['Manchester', 'Nashua', 'Concord', 'Derry', 'Dover', 'Rochester', 'Salem', 'Londonderry', 'Merrimack', 'Hudson'],
+      datasets: [
+        {
+          label: 'Population',
+          data: [
+            112525,
+            89246,
+            43412,
+            33667,
+            31771,
+            31366,
+            29554,
+            26302,
+            25969,
+            25559
+          ],
+          backgroundColor: [
+            'blue',
+            'green',
+            'purple',
+            'yellow',
+            'cyan',
+            'lime',
+            'aqua',
+            'teal',
+            'fuchsia',
+            'navy'
+          ]
+        }
+      ]
+
+    },
     title: "Largest Cities In New Hampshire by Population"
   }
   
   
   render() {
 
-    const { title } = this.state;
+    const { chartData, title } = this.state;
 
     return (
       <div className="App">
@@ -25,15 +58,15 @@ class App extends Component {
         </header>
 
         <div className="sub chart-wrapper">
-          <BarChart title={title} />
+          <BarChart data={chartData} title={title} />
         </div>
 
         <div className="sub chart-wrapper">
-          <PieChart title={title} />
+          <PieChart data={chartData} title={title} />
         </div>
 
         <div className="sub chart-wrapper">
-          <LineChart title={title} />
+          <LineChart data={chartData} title={title} />
         </div>
       </div>
     );
